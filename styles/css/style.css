@@ -134,7 +134,7 @@ line-height: 24px; }
 height: 60px;}
 .left-image { padding: 20px 15px 0px 0px; float: right;}
 
-.flignt-img{
+.flignt-img img{
     height: 180px;
     width: 100%;
     object-fit: cover;
