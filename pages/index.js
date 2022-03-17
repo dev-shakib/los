@@ -33,7 +33,7 @@ export default function Home() {
                     <div className="images-wrap">
                         <Image width="373px"
       height="145px" src="/images/1.png" alt="Nature" className="responsive"/> 
-      <Flight />
+      <div className="flignt-img"><Flight /></div>
                     </div>
                     <h2 className="are">We are about to change everything you know about finding a flight</h2>
                     <p className="trip">Customize to your trip and your desires</p>

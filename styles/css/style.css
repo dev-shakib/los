@@ -73,7 +73,7 @@ text-align: center; }
 .body-wraper {width: 375px; margin: auto; background: linear-gradient(162.59deg, #FFFFFF 8.29%, #FAA682 74.46%); padding-bottom: 50px;}
 .images-wrap {
 height: 145px;
-
+overflow: hidden;
 }
 
 button { 
@@ -133,3 +133,10 @@ line-height: 24px; }
 .left-images { float: left; width: 100px;
 height: 60px;}
 .left-image { padding: 20px 15px 0px 0px; float: right;}
+
+.flignt-img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -180px;
+}
