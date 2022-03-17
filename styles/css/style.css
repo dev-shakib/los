@@ -1,0 +1,135 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {margin: 0; padding: 0;}
+
+
+/*
+==========================================
+    Heder Css
+==========================================
+*/
+
+.header-wraper {
+width: 375px;
+height: 54px;
+background: #EE791F;
+margin: auto;
+}
+.flights { font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #fff;
+text-align: center; }
+
+
+/*
+==========================================
+    body Css
+==========================================
+*/
+.body-wraper {width: 375px; margin: auto; background: linear-gradient(162.59deg, #FFFFFF 8.29%, #FAA682 74.46%); padding-bottom: 50px;}
+.images-wrap {
+height: 145px;
+
+}
+
+button { 
+width: 258px;
+height: 60px;
+background: #5F62CF;
+box-shadow: 3px 2px 20px #A8AAF9;
+border-radius: 10px;
+margin-bottom: 50px; 
+margin: auto; 
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 72px;
+border: none;
+}
+a { color: #fff; }
+a:hover { color: #fff; text-decoration: none;}
+
+.are {font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+}
+.trip { font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 35px;
+text-align: center;
+
+ }
+
+.check {font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+margin-top: 30px;
+font-size: 24px;
+line-height: 30px;
+color: #000000;}
+.check-wraper { border-top: 1px solid #EE791F; }
+
+.los {
+height: 85px;
+background: rgba(255, 255, 255, 0.57); padding: 12px; margin-top: 20px; }
+.los a{
+    color: #000000;
+}
+.check-wp { float: left; font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px; }
+.left-images { float: left; width: 100px;
+height: 60px;}
+.left-image { padding: 20px 15px 0px 0px; float: right;}
