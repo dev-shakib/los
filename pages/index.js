@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Citycard from '../components/Citycard'
+import Flight from '../components/Flight'
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
                     <div className="images-wrap">
                         <Image width="373px"
       height="145px" src="/images/1.png" alt="Nature" className="responsive"/> 
+      <Flight />
                     </div>
                     <h2 className="are">We are about to change everything you know about finding a flight</h2>
                     <p className="trip">Customize to your trip and your desires</p>
